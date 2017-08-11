@@ -1,13 +1,15 @@
 package myKurs;
 
 import java.util.Date;
+import java.util.Scanner;
 
 public class Kot {
 	String imie;
 	Date data;
 	Double waga;
 	String opiekunImie;
-
+	
+	
 	public String getImie() {
 		return imie;
 	}
@@ -48,6 +50,7 @@ public class Kot {
 		this.opiekunImie = opiekunImie;
 	}
 
+	
 	@Override
 	public String toString() {
 		return "Kot [imie=" + imie + ", data=" + data + ", waga=" + waga + ", opiekunImie=" + opiekunImie + "]";
